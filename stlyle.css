@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: rgb(89, 158, 89);
+    text-align: center;
+    padding: 50px;
+    font-size:50px
+}
+header p{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.menubar {
+    text-align: center;
+    background-color: #ECFAEA;
+}
+.menubar ul li {
+    display: inline-block;
+    width: 150px;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.menubar ul li a {
+    text-decoration: none;
+    font-weight: 800;
+}
+.active,
+.menubar ul li:hover{
+    background-color: rgb(160, 255, 255);
+}
+.submenu-1{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+}
+.menubar ul li:hover .submenu-1{
+    display: block;
+}
+.menubar ul li:hover .submenu-1 ul li{
+    display: block;
+    width: 200px;
+    border-bottom: 1px dotted white;
+}
+.active2,
+.menubar ul li:hover{
+    background-color: (145, 210, 210);
+}
+.submenu-2{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+}
+.menubar ul li:hover .submenu-2{
+    display: block;
+}
+.submenu-2 ul li{
+    display: block;
+    width: 200px;
+    border-bottom: 1px dotted white;
+}
+.active4,
+.menubar ul li :hover{
+    background-color: (145, 210, 210);
+}
+.submenu-4{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+}
+.menubar ul li:hover .submenu-4{
+    display: block;
+}
+.menubar ul li:hover .submenu-4 ul li{
+    display: block;
+    width: 200px;
+    border-bottom: 1px dotted white;
+}
+#hero{
+    background-color: #ECFAEA;
+    text-align: center;
+    padding:0px; 
+}
+#hero img{
+    width:1500px;
+    height: 1000px;
+    margin-bottom: 50px;
+}
+#about{
+    background: #ECFAEA;
+    text-align: center;
+    padding:0px;
+}
+#about img{
+    width: 1500px;
+    height: 1000px;
+    margin-bottom: 50px;
+}
+
+#about h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+aside{
+    background-color: #ECFAEA;
+    text-align: center;
+    padding: 0px;
+}
+aside h2{
+    font-size: 50px;
+    margin-bottom: 50px;    
+    }
+aside h3{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+aside img{
+    width: 1500px;
+    height: 1000px;
+    margin-bottom: 0px;
+}
+aside p{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#div h3{
+    font-size: 40px;
+}
+#div img{
+    width: 1500px;
+}
+#div{
+    background-color: #ECFAEA;
+    text-align: center;
+    padding: 100px;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(60, 206, 60);
+    color: white;
+}
